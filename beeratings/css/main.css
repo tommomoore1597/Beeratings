@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Titillium+Web:wght@300;400;700&display=swap");
+body {
+  margin: 0;
+}
+
+#landingpage {
+  background-color: #494949;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Navigation */
+a.navbar-brand {
+  width: 15%;
+}
+
+a.navbar-brand img {
+  width: 100%;
+}
+
+nav .nav-item {
+  padding-right: 10rem;
+  font-size: 40px;
+}
+
+.navbar, .showcase, .list-group, .footer {
+  background-color: #494949;
+}
+
+.nav-link, h1, h3, h4, h5 {
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 300;
+}
+
+.menu-text {
+  color: #fff;
+}
+
+.menu-text:hover {
+  color: #D37F00;
+}
+
+#cart_count {
+  text-align: center;
+}
+
+.navbar-toggler-icon {
+  color: #D37F00;
+}
+
+/* Header Section */
+
+.showcase {
+  color: #D37F00;
+  height: 40vh;
+}
+
+.h1 {
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 700;
+  font-size: 100px;
+}
+
+.h3 {
+  font-size: 40px;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 300;
+}
+
+.showcase h4 {
+  font-size: 30px;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 300;
+}
+
+/* Home page */
+.headerbanner {
+  position: relative;
+  background: url(../img/beerheadbanner.png);
+  min-height: 700px;
+  background-repeat: no-repeat;
+  background-color: #494949;
+  background-size: cover;
+}
+
+.headerbanner h4 {
+  position: absolute;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 700;
+  font-size: 50px;
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: #D37F00;
+  border-color: #D37F00;
+}
+
+.headerbanner .btn {
+  position: absolute;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  margin-top: 250px;
+  width: 360px;
+  height: 70px;
+  border-radius: 15px;
+}
+
+.btn:hover {
+  background-color: #925904;
+  border-color: #D37F00;
+}
+
+.modal-body .btn {
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.link-text:hover {
+  color: #D37F00;
+}
+
+.svginc {
+  background-color: #494949;
+  color: #D37F00;
+}
+
+.filler {
+  margin-bottom: 200px !important;
+}
+
+/* Tablet media queries */
+
+@media only screen and (max-width: 768px) {
+  .welcomebanner h3 {
+    font-size: 30px;
+  }
+  .headerbanner h4, .showcase h3 {
+    font-size: 30px;
+  }
+  #footerimage {
+    width: 400px;
+    margin-left: 2rem;
+  }
+  .svginc {
+    text-align: center;
+  }
+  #socialmenu {
+    margin-left: 1rem;
+  }
+  .post {
+    margin-left: 2rem;
+  }
+  .review-card {
+    margin-bottom: 1rem;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+
+/* Mobile media queries */
+@media only screen and (max-width: 375px) {
+  a.navbar-brand {
+    width: 25%;
+  }
+  .welcomebanner h3 {
+    font-size: 20px;
+  }
+  .headerbanner h4, .showcase h3 {
+    font-size: 25px;
+  }
+  .showcase h1, .showcase h4 {
+    display: none;
+  }
+}
+/*# sourceMappingURL=main.css.map */
